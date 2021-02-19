@@ -1,0 +1,8 @@
+    @ApiOperation(value = "代理商报备")
+	@ApiImplicitParam(name = "reqVo", dataType = "ReportReqVo", value = "代理商报备表单", required = true)
+	@PostMapping(value = Route.AGENT_REPORT)
+	public ReportResVo report(@Valid @RequestBody ReportReqVo reqVo) {
+//		return agentService.report(reqVo);
+		return null;
+	}
+

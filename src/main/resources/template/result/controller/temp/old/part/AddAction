@@ -1,0 +1,8 @@
+    @ApiOperation(value = "设置抵扣参数")
+	@ApiImplicitParam(name = "reqVo", dataType = "AgentdeductionRationReqVo", value = "设置抵扣参数表单", required = true)
+	@PostMapping(value = Route.ADD_AGENTDEDUCTION_RATION)
+	public AgentdeductionRationResVo agentdeductionRation(@Valid @RequestBody AgentdeductionRationReqVo reqVo) {
+//		return addService.agentdeductionRation(reqVo);
+		return null;
+	}
+

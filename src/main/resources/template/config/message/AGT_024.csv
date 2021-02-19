@@ -1,0 +1,5 @@
+,,,,,
+res:res,object,非必须,,,
+res:agentId,number,非必须,,,
+res:agentName,string,非必须,,,
+res:agentLevel,number,非必须,,,

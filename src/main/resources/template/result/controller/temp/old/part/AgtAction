@@ -1,0 +1,48 @@
+    @ApiOperation(value = "开启/关闭强扣")
+	@ApiImplicitParam(name = "reqVo", dataType = "DoStrongBuckleReqVo", value = "开启/关闭强扣表单", required = true)
+	@PostMapping(value = Route.AGT_DO_STRONG_BUCKLE)
+	public DoStrongBuckleResVo doStrongBuckle(@Valid @RequestBody DoStrongBuckleReqVo reqVo) {
+//		return agtService.doStrongBuckle(reqVo);
+		return null;
+	}
+
+    @ApiOperation(value = "修改代理商状态")
+	@ApiImplicitParam(name = "reqVo", dataType = "UpdateAgentStateReqVo", value = "修改代理商状态表单", required = true)
+	@PostMapping(value = Route.AGT_UPDATE_AGENT_STATE)
+	public UpdateAgentStateResVo updateAgentState(@Valid @RequestBody UpdateAgentStateReqVo reqVo) {
+//		return agtService.updateAgentState(reqVo);
+		return null;
+	}
+
+    @ApiOperation(value = "查询代理商政策设置范围")
+	@ApiImplicitParam(name = "reqVo", dataType = "SelectAgentPolicyScopeReqVo", value = "查询代理商政策设置范围表单", required = true)
+	@PostMapping(value = Route.AGT_SELECT_AGENT_POLICY_SCOPE)
+	public SelectAgentPolicyScopeResVo selectAgentPolicyScope(@Valid @RequestBody SelectAgentPolicyScopeReqVo reqVo) {
+//		return agtService.selectAgentPolicyScope(reqVo);
+		return null;
+	}
+
+    @ApiOperation(value = "查询代理商列表")
+	@ApiImplicitParam(name = "reqVo", dataType = "SelectAgentRowsReqVo", value = "查询代理商列表表单", required = true)
+	@PostMapping(value = Route.AGT_SELECT_AGENT_ROWS)
+	public SelectAgentRowsResVo selectAgentRows(@Valid @RequestBody SelectAgentRowsReqVo reqVo) {
+//		return agtService.selectAgentRows(reqVo);
+		return null;
+	}
+
+    @ApiOperation(value = "修改代理商")
+	@ApiImplicitParam(name = "reqVo", dataType = "UpdateAgentReqVo", value = "修改代理商表单", required = true)
+	@PostMapping(value = Route.AGT_UPDATE_AGENT)
+	public UpdateAgentResVo updateAgent(@Valid @RequestBody UpdateAgentReqVo reqVo) {
+//		return agtService.updateAgent(reqVo);
+		return null;
+	}
+
+    @ApiOperation(value = "重置密码")
+	@ApiImplicitParam(name = "reqVo", dataType = "ResetAgentPasswordReqVo", value = "重置密码表单", required = true)
+	@PostMapping(value = Route.AGT_RESET_AGENT_PASSWORD)
+	public ResetAgentPasswordResVo resetAgentPassword(@Valid @RequestBody ResetAgentPasswordReqVo reqVo) {
+//		return agtService.resetAgentPassword(reqVo);
+		return null;
+	}
+

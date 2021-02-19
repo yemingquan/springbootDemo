@@ -1,0 +1,3 @@
+agentId,number,非必须,,代理商id,
+isHierarchy,boolean,非必须,,true 冻结整个链条 false：冻结单个,
+state,integer,非必须,,状态：（1：冻结，10：解冻）,

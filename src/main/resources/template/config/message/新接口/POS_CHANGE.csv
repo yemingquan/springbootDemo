@@ -1,0 +1,6 @@
+appCode,String,必须,,应用编号
+snStart,String,必须,,SN号段起始
+snEnd,String,必须,,SN号段截止
+count,number,必须,,数量
+policyId,number,非必须,,主政策Id
+creater,number,必须,,创建者

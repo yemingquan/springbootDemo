@@ -1,0 +1,6 @@
+agentId,number,非必须,,被设置的代理商id,
+deductType,number,非必须,,"抵扣类型（抵扣类型：1对平台,2对上级）",
+txnRate,string,非必须,,交易分润抵扣比例,
+activationRate,string,非必须,,激活返现抵扣比例,
+vipRate,string,非必须,,VIP返现抵扣比例,
+activityRate,string,非必须,,活动返现抵扣比例,

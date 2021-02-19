@@ -1,0 +1,4 @@
+^RES$,,,,,
+rows:rows,object,非必须,,,
+rows:policyId,string,非必须,,政策id,
+rows:name,string,非必须,,政策名称,

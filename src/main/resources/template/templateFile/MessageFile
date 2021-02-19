@@ -1,0 +1,24 @@
+package ^basePath$.model.vo.^messageType$^tempPath$;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import ^basePath$.model.vo.base.BaseHead^classMessageType$Vo;
+import ^basePath$.model.vo.^messageType$^tempPath$.body.^reqBodyName$;
+
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+
+@Data
+@ApiModel(description = "^apiDescription$^messageTypeDescription$")
+public class ^className$ {
+
+    @JsonProperty("HEAD")
+    @ApiModelProperty(value = "^messageTypeDescription$头", required = true)
+    private BaseHead^classMessageType$Vo head;
+
+    @JsonProperty("BODY")
+    @ApiModelProperty(value = "^messageTypeDescription$体", required = true)
+    private ^reqBodyName$ body;
+
+
+

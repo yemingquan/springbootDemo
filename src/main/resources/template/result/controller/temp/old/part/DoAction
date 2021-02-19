@@ -1,0 +1,16 @@
+    @ApiOperation(value = "代理商（手动更改代理商的钱）")
+	@ApiImplicitParam(name = "reqVo", dataType = "OperateBalanceReqVo", value = "代理商（手动更改代理商的钱）表单", required = true)
+	@PostMapping(value = Route.DO_OPERATE_BALANCE)
+	public OperateBalanceResVo operateBalance(@Valid @RequestBody OperateBalanceReqVo reqVo) {
+//		return doService.operateBalance(reqVo);
+		return null;
+	}
+
+    @ApiOperation(value = "代理商冻结/解冻")
+	@ApiImplicitParam(name = "reqVo", dataType = "FrozenOrThawReqVo", value = "代理商冻结/解冻表单", required = true)
+	@PostMapping(value = Route.DO_FROZEN_OR_THAW)
+	public FrozenOrThawResVo frozenOrThaw(@Valid @RequestBody FrozenOrThawReqVo reqVo) {
+//		return doService.frozenOrThaw(reqVo);
+		return null;
+	}
+

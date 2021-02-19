@@ -1,0 +1,2 @@
+	@ApiModelProperty(value = "^noteProperty$", required = ^requireProperty$, example = "^exampleProperty$")
+	private ^typeProperty$ ^nameProperty$;

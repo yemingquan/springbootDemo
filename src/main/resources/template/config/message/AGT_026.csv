@@ -1,0 +1,5 @@
+parentAgentId,number,非必须,,主政策id,
+^RES$,,,,,
+,,,,,
+res,string?[],非必须,,,item 类型:?string
+,,非必须,,,

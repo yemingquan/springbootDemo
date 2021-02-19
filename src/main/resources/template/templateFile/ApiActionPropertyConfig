@@ -1,0 +1,7 @@
+    @ApiOperation(value = "^apiDescription$")
+	@ApiImplicitParam(name = "reqVo", dataType = "^reqName$", value = "^apiDescription$表单", required = true)
+	@PostMapping(value = Route.^routeName$)
+	public ^resName$ ^actionMethodName$(@Valid @RequestBody ^reqName$ reqVo) {
+//		return ^classServiceName$.^actionMethodName$(reqVo);
+		return null;
+	}

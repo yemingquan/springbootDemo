@@ -1,0 +1,7 @@
+cityCode,string,非必须,,城市id,
+bankName,string,非必须,,银行名称,
+^RES$,,,,,
+subBranchList,object?[],非必须,,,item 类型:?object
+paybankNo,number,必须,,联行号,
+cityCode,number,必须,,城市id,
+accbankNo,number,必须,,支行名称,

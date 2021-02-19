@@ -1,0 +1,3 @@
+startSn,number,必须,,号段起始,
+endSn,number,必须,,号段终止,
+policyId,number,必须,,政策id,

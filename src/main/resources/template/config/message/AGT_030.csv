@@ -1,0 +1,5 @@
+,,,,,
+agentId,number,非必须,,代理商id,
+policyId,number,非必须,,政策id,
+type,number,非必须,,1:激活返现，3:活动返现,
+off_On,number,非必须,,关闭打开（1:关闭 10:开启）,

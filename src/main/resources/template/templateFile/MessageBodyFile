@@ -1,0 +1,13 @@
+package ^basePath$.model.vo.^messageType$^tempPath$.body;
+
+import java.util.List;
+
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+
+@Data
+@ApiModel(description = "^apiDescription$^messageTypeDescription$体")
+public class ^className$ {
+
+

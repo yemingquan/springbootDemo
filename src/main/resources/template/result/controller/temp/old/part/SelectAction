@@ -1,0 +1,32 @@
+    @ApiOperation(value = "查询代理商政策列表")
+	@ApiImplicitParam(name = "reqVo", dataType = "AgentPolicyRowsReqVo", value = "查询代理商政策列表表单", required = true)
+	@PostMapping(value = Route.SELECT_AGENT_POLICY_ROWS)
+	public AgentPolicyRowsResVo agentPolicyRows(@Valid @RequestBody AgentPolicyRowsReqVo reqVo) {
+//		return selectService.agentPolicyRows(reqVo);
+		return null;
+	}
+
+    @ApiOperation(value = "查询支行联行号")
+	@ApiImplicitParam(name = "reqVo", dataType = "SubbranchListReqVo", value = "查询支行联行号表单", required = true)
+	@PostMapping(value = Route.SELECT_SUBBRANCH_LIST)
+	public SubbranchListResVo subbranchList(@Valid @RequestBody SubbranchListReqVo reqVo) {
+//		return selectService.subbranchList(reqVo);
+		return null;
+	}
+
+    @ApiOperation(value = "查询政策")
+	@ApiImplicitParam(name = "reqVo", dataType = "PolicyReqVo", value = "查询政策表单", required = true)
+	@PostMapping(value = Route.SELECT_POLICY)
+	public PolicyResVo policy(@Valid @RequestBody PolicyReqVo reqVo) {
+//		return selectService.policy(reqVo);
+		return null;
+	}
+
+    @ApiOperation(value = "根据父类政策查询代理商子政策政策列表")
+	@ApiImplicitParam(name = "reqVo", dataType = "AgentChildrenPolicyListReqVo", value = "根据父类政策查询代理商子政策政策列表表单", required = true)
+	@PostMapping(value = Route.SELECT_AGENT_CHILDREN_POLICY_LIST)
+	public AgentChildrenPolicyListResVo agentChildrenPolicyList(@Valid @RequestBody AgentChildrenPolicyListReqVo reqVo) {
+//		return selectService.agentChildrenPolicyList(reqVo);
+		return null;
+	}
+

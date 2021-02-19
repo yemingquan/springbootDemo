@@ -1,0 +1,5 @@
+agentId,number,非必须,,代理商id,
+amount,number,非必须,,操作金额,
+type,integer,非必须,,类型（1：新增余额；10：减少余额）,
+sign,string,非必须,,签钥,
+record,string,非必须,,流水描述,

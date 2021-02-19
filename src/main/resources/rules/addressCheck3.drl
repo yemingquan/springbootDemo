@@ -1,0 +1,10 @@
+package com.rules
+
+import com.example.springBootDemo.model.Address;
+
+rule "3 Postcode should be filled with exactly 6 numbers"
+    when
+        $address : Address(postCode != null, postCode matches "([0-9]{6})")
+    then
+        System.out.println("邮政编码通过校验!");
+end

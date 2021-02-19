@@ -1,0 +1,5 @@
+^RES$,,,,,
+res:res,object?[],非必须,,,item 类型:?object
+res:bankLogId,number,必须,,id,
+res:bankName,string,必须,,银行名称,
+res:bankLogUrl,string,必须,,logo地址,

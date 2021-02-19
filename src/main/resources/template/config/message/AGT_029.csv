@@ -1,0 +1,13 @@
+,,,,,
+agentRate,string,非必须,,代理商结算费率,
+agentFee,string,非必须,,代理商结算手续费,
+vip90Price,string,非必须,,代理商vip返现单价,
+vip150Price,string,非必须,,,
+policyId,string,非必须,,政策id,
+id,string,非必须,,代理商id,
+agentId,string,非必须,,下级代理商Id,
+cashList:cashList,object,非必须,,返现集合,备注:?返现集合
+cashList:policyId,number,非必须,,政策ID,
+cashList:activationPrice,number,非必须,,激活返现金额,
+cashList:activityPrice,number,非必须,,活动返现金额,
+cashList:parentId,number,非必须,,"主政策ID,无则填0",

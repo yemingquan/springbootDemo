@@ -1,0 +1,2 @@
+	@ApiModelProperty(required = ^requireProperty$)
+	private List<^bodyRowsName$> rows;
